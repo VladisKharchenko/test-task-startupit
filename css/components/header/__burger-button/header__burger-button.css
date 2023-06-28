@@ -1,0 +1,21 @@
+.header__burger-button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  box-shadow: none;
+  transition: box-shadow 0.3s ease-in-out;
+  display: none;
+}
+
+.header__burger-button:hover {
+  box-shadow: 0 0 5px 3px #4374e5;
+}
+
+@media (max-width: 560px) {
+  .header__burger-button {
+    display: block;
+  }
+}

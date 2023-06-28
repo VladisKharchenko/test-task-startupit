@@ -1,0 +1,11 @@
+.burger-menu__link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19.5px;
+}
+
+.burger-menu__link:hover {
+  color: #4374e5;
+}

@@ -15,6 +15,12 @@
   }
 }
 
+@media (max-width: 752px) {
+  .header__container {
+    max-width: 620px;
+  }
+}
+
 @media (max-width: 375px) {
   .header__container {
     max-width: 343px;

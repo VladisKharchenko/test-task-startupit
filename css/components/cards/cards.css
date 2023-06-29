@@ -15,6 +15,8 @@
 @media (max-width: 752px) {
   .cards {
     max-width: 343px;
+    margin-top: 182px;
+    margin-bottom: 87px;
   }
 }
 

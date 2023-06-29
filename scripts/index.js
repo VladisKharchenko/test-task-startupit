@@ -10,10 +10,16 @@ burgerButton.addEventListener('click', () => {
   if (burgerMenu.classList.contains('open')) {
     burgerButtonImage.src = './images/Cross.png';
     header.classList.add('shadow');
-    burgerButton.classList.add('no-hover');
   } else {
     burgerButtonImage.src = './images/Burger.png';
     header.classList.remove('shadow');
-    burgerButton.classList.remove('no-hover');
   }
+});
+
+burgerButton.addEventListener('touchstart', () => {
+  burgerButton.classList.add('no-hover');
+});
+
+burgerButton.addEventListener('touchend', () => {
+  burgerButton.classList.remove('no-hover');
 });

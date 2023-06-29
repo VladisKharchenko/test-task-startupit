@@ -8,6 +8,7 @@
   box-shadow: none;
   transition: box-shadow 0.3s ease-in-out;
   display: none;
+  touch-action: manipulation;
 }
 
 .header__burger-button:hover {

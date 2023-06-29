@@ -10,7 +10,7 @@
 
 @media (max-width: 1439px) {
   .header__container {
-    max-width: 741px;
+    max-width: 736px;
     padding-top: 18px;
   }
 }
@@ -23,7 +23,7 @@
 
 @media (max-width: 375px) {
   .header__container {
-    max-width: 343px;
-    min-height: 34px;
+    max-width: 344px;
+    min-height: 31px;
   }
 }

@@ -10,10 +10,6 @@
   display: none;
 }
 
-.header__burger-button:hover {
-  box-shadow: 0 0 5px 3px #4374e5;
-}
-
 @media (max-width: 560px) {
   .header__burger-button {
     display: block;

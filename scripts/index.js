@@ -15,11 +15,3 @@ burgerButton.addEventListener('click', () => {
     header.classList.remove('shadow');
   }
 });
-
-burgerButton.addEventListener('touchstart', () => {
-  burgerButton.classList.add('no-hover');
-});
-
-burgerButton.addEventListener('touchend', () => {
-  burgerButton.classList.remove('no-hover');
-});

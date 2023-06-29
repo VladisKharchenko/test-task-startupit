@@ -9,6 +9,7 @@
 @import url(./components/header/__links/header__links.css);
 @import url(./components/header/__link-item/header__link-item.css);
 @import url(./components/header/__link/header__link.css);
+@import url(./components/main/main.css);
 @import url(./components/cards/cards.css);
 @import url(./components/card/card.css);
 @import url(./components/card/__image/card__image.css);

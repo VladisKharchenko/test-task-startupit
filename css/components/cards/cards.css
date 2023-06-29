@@ -2,12 +2,12 @@
   max-width: 736px;
   display: flex;
   flex-wrap: wrap;
-  margin: 212px auto 193px;
+  margin: 286px auto 193px;
 }
 
 @media (max-width: 1439px) {
   .cards {
-    margin-top: 264px;
+    margin-top: 343px;
     margin-bottom: 245px;
   }
 }
@@ -20,7 +20,7 @@
 
 @media (max-width: 375px) {
   .cards {
-    margin-top: 40px;
+    margin-top: 91px;
     margin-bottom: 27px;
   }
 }

@@ -2,27 +2,13 @@
   max-width: 736px;
   display: flex;
   flex-wrap: wrap;
-  margin: 286px auto 193px;
-}
-
-@media (max-width: 1439px) {
-  .cards {
-    margin-top: 343px;
-    margin-bottom: 245px;
-  }
+  margin: auto;
 }
 
 @media (max-width: 752px) {
   .cards {
     max-width: 343px;
-    margin-top: 182px;
-    margin-bottom: 87px;
-  }
-}
-
-@media (max-width: 375px) {
-  .cards {
-    margin-top: 91px;
-    margin-bottom: 27px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }

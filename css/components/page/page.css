@@ -9,4 +9,11 @@
   margin: 0 auto;
   max-width: 100%;
   background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body {
+  height: 100%;
 }
